@@ -1,0 +1,205 @@
+/* CSS Reset */
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background: url('bg.jpg'); */
+    /* background-image: url('bg.jpg'); */
+    /* height: 50%; */
+    /* width: 1600px; */
+    height: 1800px;
+    /* background-size: 1600px 1000px; */
+    /* background-repeat: no-repeat; */
+}
+ header img{
+     width: 100%;
+     z-index: -1;
+
+ }
+
+.left {
+    display: inline-block;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    /* border: 2px solid red; */
+    /* font-family: "Open Sans","Helvetica","Arial",sans-serif; */
+    font-family: Inter,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    
+}
+.left img{
+    width: 50px;
+    align-items: center;
+}
+.left div{
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    color: white;
+    /* border: 2px solid rgb(230, 226, 36); */
+    width: 50%;
+    margin: 10px auto;
+
+}
+
+.right {
+    /* display: inline-block; */
+    color: white;
+    /* border: 2px solid green; */
+    position: absolute;
+    right: 150px;
+    top: 10px;
+    height: 20px;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.navbar li{
+    display:inline-block;
+    font-size: 17px;
+    /* border: 2px solid white; */
+    border-radius: 14px;
+    font-family: "Open Sans","Helvetica","Arial",sans-serif;
+    padding: 5px 10px;
+    
+
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.navbar li:hover{
+    background-color: white;
+    transition-duration: 0.4s;
+    
+    
+}
+.navbar li a:hover{
+    color: black;
+    
+}
+.btn{
+    margin: 2px 13px;
+    background-color: rgb(44, 40, 40);
+    color: white;
+    padding: 5px 14px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 15px;
+    
+}
+.btn:hover{
+    color:black;
+    background-color: white;
+    transition-duration: 0.4s;
+}
+.container{
+    /* border: 2px solid red; */
+    color: white;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    width: 40%;
+    /* display:inline-block; */
+    position: absolute;
+    top: 200px;
+    left:50px;
+    font-size: 70px;
+    font-family: Inter,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+
+}
+.qoute{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(150, 148, 148);
+}
+.button{
+    display:inline-block;
+    font-family: Inter,Arial,Helvetica,sans-serif;
+    margin: 0px 0px;
+    background-color: rgb(44, 40, 40);
+    color: white;
+    padding: 20px 40px;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 20px;
+}
+.button:hover{
+    color:black;
+    background-color: white;
+    transition-duration: 0.4s;
+}
+.sub{
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto auto;
+    width: 40%;
+    /* position: absolute; */
+    /* border: 2px solid red; */
+    color: rgb(0, 0, 0);
+    font-family: Inter,Arial,Helvetica,sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.sub span{
+    font-size: 15px;
+    color: grey;
+    /* text-align: center; */
+}
+.con2{
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    margin-top: 5rem;
+    width: 35%;
+    /* position: absolute; */
+    padding: 40px 40px;
+    color: rgb(0, 0, 0);
+    font-family: Inter,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    top: 1200px;
+    left: 440px;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+    
+}
+.con2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1);
+}
+.form input{
+    border: 2px solid rgb(173, 160, 160);
+    border-radius: 30px;
+    margin: 5px ;
+    padding: 15px 160px;
+    padding-left: 10px;
+    font-family: Inter,Arial,Helvetica,sans-serif;
+    outline: none;
+    
+}
+.form input:focus{
+    border: 2px solid black;
+    transition-duration: 0.5s;
+    transform: scale(1.05);
+}
+.form{
+    border: 2px solid white;
+    border-radius: 30px;
+}
