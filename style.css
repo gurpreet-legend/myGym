@@ -37,11 +37,15 @@ body {
 }
 
 .mid {
-    display: block;
+    display: flex;
+    justify-content: center;
+    position: absolute;
     color: white;
     /* border: 2px solid rgb(230, 226, 36); */
     width: 50%;
     margin: 10px auto;
+    margin-left: 5rem;
+    
 
 }
 
@@ -144,6 +148,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: auto auto;
+    padding-top: 2rem;
     width: 40%;
     /* position: absolute; */
     /* border: 2px solid red; */
